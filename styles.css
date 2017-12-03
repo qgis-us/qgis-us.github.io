@@ -1,6 +1,6 @@
 body {
-  #background: #fff url('fuller_us_flag.png') no-repeat 100% 0;
-  #background-attachment:fixed;
+  background: #fff url('fuller_us_flag.png') no-repeat 100% 0;
+  background-attachment:fixed;
   font-size: 14px;
 }
 
