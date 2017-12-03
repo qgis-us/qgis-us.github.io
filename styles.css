@@ -1,6 +1,6 @@
 body {
   #background: #fff url('fuller_us_flag.png') no-repeat 100% 0;
-  background-attachment:fixed;
+  #background-attachment:fixed;
   font-size: 14px;
 }
 
@@ -252,6 +252,6 @@ footer {
 
 @media only screen and (max-width: 630px) {
   body {
-    #background: #fff url('fuller_us.png') no-repeat 100% 0 !important;
+    background: #fff url('fuller_us.png') no-repeat 100% 0 !important;
   }
 }
