@@ -31,7 +31,7 @@ hr {
 }
 
 .navbar-brand {
-  background: #fff url('images/qgis_logo3.png') no-repeat 20px 2px;
+  background: url('images/qgis-us-logo.png') no-repeat center/58%;
   height: 67px;
   width: 100px;
 }
