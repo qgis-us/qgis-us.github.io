@@ -5,554 +5,815 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet"
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:900,100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles.css">
 
     <title>QGIS North America 2020</title>
   </head>
+
   <body>
-
-    <div class="container-full">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">QGIS North America 2020</a>
-        </nav>
-    </div>
-
-    <div class="container">
-
-        <div class="row">
-            <div class="col-md-12">
-                <p><h2 class="text-center pt-5">QGIS North America 2020</h2><br>
-                <h3 class="text-center pb-2">July 10th, 17th, and 24th</h3></p>
-            </div>
+    <!-- QGIS.org NAVBAR -->
+    <div class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://qgis.org"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="nav-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="http://qgis.org/en/site/about/index.html">Discover QGIS</a></li>
+              <li><a href="http://qgis.org/en/site/forusers/index.html">For Users</a></li>
+              <li><a href="http://qgis.org/en/site/getinvolved/index.html">Get Involved</a></li>
+              <li><a href="http://qgis.org/en/docs/index.html">Documentation</a></li>
+              <li class="navbar-dropdown">
+                <div class="select-dropdown">
+                <select id="other_groups">
+                  <option value="" title="none">Other User Groups</option>
+                  <optgroup label="U.S.">
+                      </optgroup>
+                  <optgroup label="World">
+                    <option title="Switzerland" value="http://qgis.ch/">Switzerland</option>
+                    <option title="Netherlands" value="http://www.qgis.nl/">Netherlands</option>
+                    <option title="UK" value="http://ukqgis.wordpress.com/">United Kingdom</option>
+                    <option title="ANZ" value="http://qgis-au.org/">Australia &amp; NZ</option>
+                  </optgroup>
+                </select>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
 
-        <div class="row">
-            <div class="col-md-12">
-                <h3 class="py-2">Conference Details</h3>
-                <p>The QGIS US Users Group & partners in North America are proud to announce the QGIS North America 2020 virtual
-                    conference to be held on three consecutive Fridays in July</p>
-                <ul>
-                    <li>Friday, July 17, 2020</li>
-                    <li>Friday, July 24, 2020</li>
-                    <li>Friday, July 31, 2020</li>
+      <div class="container container-wrapper">
+        <div class="container">
+            <div class="row">
+                <h2 class="page-title mt-5">QGIS North America 2020</h2>
+                <h3 class="page-sub-title pb-2">July 10th, 17th, and 24th</h3>
+            </div>
+            <div class="container">
+                <a href="index.html" title="QGIS U.S. User Group">QGIS U.S. User Group</a>
+            </div>
+            <div class="clearfix"></div>
+            <hr class="featurette-divider">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="featurette-heading py-2">Conference Details</h3>
+                        <p class="lead">The QGIS US Users Group & partners in North America are proud to announce the QGIS North America 2020 virtual
+                            conference to be held on three consecutive Fridays in July</p>
+                        <ul>
+                            <li>Friday, July 17, 2020</li>
+                            <li>Friday, July 24, 2020</li>
+                            <li>Friday, July 31, 2020</li>
+                        </ul>
+                        <p class="lead">We offer this meeting as a way to share our ideas and skills when so many in-person meetings cannot safely happen.
+                            We recognize that while we are all separated, we have the opportunity to include people in a greater diversity in
+                            locations and economic situations since travel and registration costs are not necessary. We invite participation
+                            from all over the globe, but presentation times will focus on the North American audience.</p>
+                        <p class="lead">The cost to attend will be free, and we would like to suggest attendees make a donation to support
+                            QGIS <a href="https://qgis.org/en/site/getinvolved/donations.html" target="_blank">here</a>.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="py-2">Workshops</h3>
+                        <p class="lead"><a href="https://docs.google.com/forms/d/1gFJ8s7u56OAEBIBBnrdQ1vWdYdYVM_PtCny4mY64Xog" target="_blank">Workshop Registration</a> is now open. Registration is required to attend workshops. All workshops are offered free of cost to attendees. Participation is limited to provide a quality experience for attendees, but overflow viewing will be offered streamed to YouTube.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="py-2">Conference Schedule</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                    <li class="nav-item active">
+                    <a class="nav-link text-center" id="home-tab" data-toggle="tab" href="#july17" role="tab" aria-controls="july17" aria-selected="true"><h4>Day 1</h4>July 17<br>2020</br></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-center" id="profile-tab" data-toggle="tab" href="#july24" role="tab" aria-controls="july24" aria-selected="false"><h4>Day 2</h4>July 24<br>2020</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-center" id="contact-tab" data-toggle="tab" href="#july31" role="tab" aria-controls="july31" aria-selected="false"><h4>Day 3</h4>July 31<br>2020</a>
+                    </li>
                 </ul>
-                <p>We offer this meeting as a way to share our ideas and skills when so many in-person meetings cannot safely happen.
-                    We recognize that while we are all separated, we have the opportunity to include people in a greater diversity in
-                    locations and economic situations since travel and registration costs are not necessary. We invite participation
-                    from all over the globe, but presentation times will focus on the North American audience.<p>
-                <p>The cost to attend will be free, and we would like to suggest attendees make a donation to support
-                    QGIS <a href="https://qgis.org/en/site/getinvolved/donations.html" target="_blank">here</a>.</p>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                <h3 class="py-2">Workshops</h3>
-                <p><a href="https://docs.google.com/forms/d/1gFJ8s7u56OAEBIBBnrdQ1vWdYdYVM_PtCny4mY64Xog" target="_blank">Workshop Registration</a> is now open. Registration is required to attend workshops. All workshops are offered free of cost to attendees. Participation is limited to provide a quality experience for attendees, but overflow viewing will be offered streamed to YouTube.</p>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                <h3 class="py-2">Conference Schedule</h3>
-            </div>
-        </div>
-
-        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
-            <li class="nav-item">
-            <a class="nav-link active text-center" id="home-tab" data-toggle="tab" href="#july17" role="tab" aria-controls="july17" aria-selected="true"><h4>Day 1</h4>July 17<br>2020</br></a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link text-center" id="profile-tab" data-toggle="tab" href="#july24" role="tab" aria-controls="july24" aria-selected="false"><h4>Day 2</h4>July 24<br>2020</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link text-center" id="contact-tab" data-toggle="tab" href="#july31" role="tab" aria-controls="july31" aria-selected="false"><h4>Day 3</h4>July 31<br>2020</a>
-            </li>
-        </ul>
-
-      <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="july17" role="tabpanel" aria-labelledby="july17-tab">
-            <h3 class="pt-3">Friday July 17, 2020</h3>
-            <p><small><em>Time Zone: EDT/Eastern Time (US & Canada)</em></small></p>
-
-            <h4 class="pt-3">Workshops</h4>
-
-            <div class="row">
-                <div class="col-md-2"><h5>10:00-2:00</h5></div>
-                <div class="col-md-10">
-                    <h5>Un taller introductorio de QGIS para principiantes (Spanish language workshop) <a href="https://docs.google.com/forms/d/1gFJ8s7u56OAEBIBBnrdQ1vWdYdYVM_PtCny4mY64Xog" target="_blank">(Registration Required)</a></h5>
-                    <p>Alaina Mallette</p>
-                    <p>This introductory session will cover the basic concepts of  geographic information systems, including the five principal components: hardware,
-                        software, data, process/methods, and people. An overview of the essential hardware and the most common software will be presented. This session
-                        will use publicly-accessible data sources and explain common data collection processes, including mobile data collection and field worksheets.
-                        There will be hands-on modules for skill-building and practice on these topics:</p>
-                        <ul>
-                            <li>Data visualization</li>
-                            <li>Layer properties</li>
-                            <li>Basic tools</li>
-                            <li>Attribute tables</li>
-                            <li>Spatial and non-spatial data queries</li>
-                            <li>Geoprocessing tools and processing toolbox</li>
-                            <li>Plugins</li>
-                            <li>Geographic design and layout manager</li>
-                        </ul>
-                        <p>The session will end with a dialogue on leveraging individual and organizational networks for a more productive and effective geographic
-                            information system, using examples from Mexico, Ukraine, and New York.</p>
-                </div>
             </div>
 
-            <div class="row">
-                <div class="col-md-2"><h5>10:00-2:00</h5></div>
-                <div class="col-md-10">
-                    <h5>An Introductory QGIS Workshop for Beginners (English language workshop) <a href="https://docs.google.com/forms/d/1gFJ8s7u56OAEBIBBnrdQ1vWdYdYVM_PtCny4mY64Xog" target="_blank">(Registration Required)</a></h5>
-                    <p>Michele Tobias</p>
-                    <p>This introductory-level workshop will focus upon the fundamental concepts and skills needed to explore and analyze begin using Geographic
-                        Information Systems (GIS) software for the exploration and analysis of spatial data using the QGIS platform.</p>
-                    <p>No prior experience with QGIS or other GIS software is needed, though attendees should be comfortable learning new computer applications,
-                        working with the basics of spreadsheets, and managing/organizing computer files.</p>
-                    <p>By the end of this workshop, you will be able to:</p>
-                        <ul>
-                            <li>Define GIS and geospatial concepts and terminology.</li>
-                            <li>Know the difference between vector and raster data types</li>
-                            <li>Properly connect and add data to a QGIS project</li>
-                            <li>Know where to find the attributes of your data in QGIS</li>
-                            <li>Perform basic selections and queries in QGIS</li>
-                            <li>Symbolize data by attributes</li>
-                            <li>Assemble a basic map for export</li>
-                        </ul>
-                    <p>The materials are online: <a href="https://github.com/MicheleTobias/Intro-to-Desktop-GIS-with-QGIS" target="_blank">Here</a></p>
-                </div>
-            </div>
+            <div class="container">
+                <div class="tab-content tab-content-wrapper" id="myTabContent">
+                    <div class="tab-pane fade active in" id="july17" role="tabpanel" aria-labelledby="july17-tab">
+                        <h3 class="pt-3">Friday July 17, 2020</h3>
+                        <p class="lead"><small><em>Time Zone: EDT/Eastern Time (US & Canada)</em></small></p>
 
-            <h4 class="pt-3">Presentations</h4>
+                        <h4 class="pt-3">Workshops</h4>
 
-            <div class="row">
-                <div class="col-md-2"><h5>3:00</h5></div>
-                <div class="col-md-10">
-                    <h5>SLYR - A bridge between ESRI and QGIS</h5>
-                    <p>Brett Edmond Carlock</p>
-                    <p>In this session, I would like to cover an introduction to SLYR, North Road, Nyall Dawson, and background on the tool. I would also like to provide examples of conversions from proprietary ESRI projects and styles to QGIS projects and styles.
-                        In addition, I would like to talk about how this tool can benefit those in mixed GIS environments, those who wish to transition to FOSS, or those consuming many government-provided data often found in these formats.
-                        Other tips, tricks, and future developments will likely be covered as well. I will be working with Nyall Dawson on the content and scope, so this is my best projection as of now. I will provide updates if it changes.</p>
-                </div>
-            </div>
+                        <div class="row">
+                            <div class="col-md-2"><h5>10:00-2:00</h5></div>
+                            <div class="col-md-10">
+                                <blockquote>
+                                <h5>Un taller introductorio de QGIS para principiantes (Spanish language workshop) <a href="https://docs.google.com/forms/d/1gFJ8s7u56OAEBIBBnrdQ1vWdYdYVM_PtCny4mY64Xog" target="_blank">(Registration Required)</a></h5>
+                                <p class="lead speaker">Alaina Mallette</p>
+                                <p class="lead">This introductory session will cover the basic concepts of  geographic information systems, including the five principal components: hardware,
+                                    software, data, process/methods, and people. An overview of the essential hardware and the most common software will be presented. This session
+                                    will use publicly-accessible data sources and explain common data collection processes, including mobile data collection and field worksheets.
+                                    There will be hands-on modules for skill-building and practice on these topics:</p>
+                                    <ul>
+                                        <li>Data visualization</li>
+                                        <li>Layer properties</li>
+                                        <li>Basic tools</li>
+                                        <li>Attribute tables</li>
+                                        <li>Spatial and non-spatial data queries</li>
+                                        <li>Geoprocessing tools and processing toolbox</li>
+                                        <li>Plugins</li>
+                                        <li>Geographic design and layout manager</li>
+                                    </ul>
+                                    <p class="lead">The session will end with a dialogue on leveraging individual and organizational networks for a more productive and effective geographic
+                                        information system, using examples from Mexico, Ukraine, and New York.</p>
+                                </blockquote>
+                            </div>
+                        </div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>3:30</h5></div>
-                <div class='col-md-10'>
-                    <h5>QGIS 101: Examples Galore</h5>
-                    <p>Gretchen Peterson, <em>PetersonGIS</em></p>
-                    <p>We'll go through the steps to create several example maps from my upcoming book. From arrow symbols for streaklets to river line tapering and from blending modes to 3D visualization, this isn't a comprehensive how-to but a ""how I made these."" There will also be some cartographic principles thrown in as a matter of course!</p>
-                </div>
-            </div>
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>4:00</h5></div>
-                <div class='col-md-10'>
-                    <h5>Transitional Design and Lessons Learned</h5>
-                    <p>Mickey Dietrich, <em>NYS Tug Hill Commission</em></p>
-                    <p>The NYS Tug Hill Commission provides technical assistance to communities within the Tug Hill Region.  We started the transition to QGIS a few years
-                        ago as our primary desktop GIS platform from other mapping products.  Through that transition we looked at other applications that would work well
-                        with QGIS and meet the needs of our organization.  We ended up hosting a centralized PostGIS database on Amazon Web Services, and having GIS Cloud
-                        be our online map viewing and mobile data collecting platform.  During this presentation you will be taken through our design thought process and
-                        the lessons we learned. This presentation could help you in your transition to QGIS and what things you may need to think about for your
-                        organization.  It will also provide you with the information that took us several years to obtain, but you can get it in this one presentation.</p>
-                </div>
-            </div>
+                        <div class="row">
+                            <div class="col-md-2"><h5>10:00-2:00</h5></div>
+                            <div class="col-md-10">
+                                <blockquote>
+                                <h5>An Introductory QGIS Workshop for Beginners (English language workshop) <a href="https://docs.google.com/forms/d/1gFJ8s7u56OAEBIBBnrdQ1vWdYdYVM_PtCny4mY64Xog" target="_blank">(Registration Required)</a></h5>
+                                <p class="lead speaker">Michele Tobias</p>
+                                <p class="lead">This introductory-level workshop will focus upon the fundamental concepts and skills needed to explore and analyze begin using Geographic
+                                    Information Systems (GIS) software for the exploration and analysis of spatial data using the QGIS platform.</p>
+                                <p class="lead">No prior experience with QGIS or other GIS software is needed, though attendees should be comfortable learning new computer applications,
+                                    working with the basics of spreadsheets, and managing/organizing computer files.</p>
+                                <p class="lead">By the end of this workshop, you will be able to:</p>
+                                    <ul>
+                                        <li>Define GIS and geospatial concepts and terminology.</li>
+                                        <li>Know the difference between vector and raster data types</li>
+                                        <li>Properly connect and add data to a QGIS project</li>
+                                        <li>Know where to find the attributes of your data in QGIS</li>
+                                        <li>Perform basic selections and queries in QGIS</li>
+                                        <li>Symbolize data by attributes</li>
+                                        <li>Assemble a basic map for export</li>
+                                    </ul>
+                                <p class="lead">The materials are online: <a href="https://github.com/MicheleTobias/Intro-to-Desktop-GIS-with-QGIS" target="_blank">Here</a></p>
+                            </blockquote>
+                            </div>
+                        </div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>4:30</h5></div>
-                <div class='col-md-10'>
-                    <h5>Using QGIS at a 911</h5>
-                    <p>Randal Hale, <em>North River Geographic Systems, Inc </em></p>
-                    <p>In 2018 Henry County TN decided to move away from their Proprietary GIS solution and move to QGIS and PostGIS.  We built a database and used QGIS
-                        to help maintain address records which were then exported to the State of TN and to the county's 911 system. </p>
-                </div>
-            </div>
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>5:00</h5></div>
-                <div class='col-md-10'>
-                    <h5>Integrating QGIS & GLOBE</h5>
-                    <p>Michael Jabot, <em>SUNY Fredonia</em></p>
-                    <p>This session will share how QGIS is being used in grades 3-12 and teacher preparation to support the NASA GLOBE Program. GLOBE seeks to empower
-                        students to collect data to learn about the world around them and QGIS empowers students to visualize these data to communicate to others. A
-                        perfect marriage!</p>
-                </div>
-            </div>
+                        <h4 class="pt-3">Presentations</h4>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>5:30</h5></div>
-                <div class='col-md-10'>
-                    <h5>QGIS and the Data to Policy Project: Bringing a Geospatial Perspective to Student Research in Social Justice</h5>
-                    <p>Diane Fritz, <em>University of Colorado Denver</em></p>
-                    <p>The Data to Policy (D2P) Project in Denver, Colorado was formed to empower students as researchers and advocates through the use of data to create
-                        more equitable communities. The Auraria Library, where I work as the Geospatial Services Specialist, has been hosting D2P for the University of
-                        Colorado Denver and Metropolitan State University Denver as spring and fall symposiums since 2017. The D2P project was inspired by the desire to
-                        create an avenue for the voices of students frustrated with police violence, but has now extended its theme to Public Data for Public Good. As
-                        the D2P student and faculty liaison, I am often introducing geospatial data, such as census data, to the participating students through QGIS.
-                        Many of these students have never heard of GIS.</P>
-                    <p>Striking a balance between empowering some students with research tools and not overwhelming them with tech is a challenge. I will give some
-                        insight on how these students approach and use QGIS, for simple to more complex problems. I’ll also propose the idea of creating a bare bones
-                        GUI version of the QGIS software for making geospatial technologies accessible to non-STEM students in a way that leaves an easy path to grow
-                        into the software.</p>
-                </div>
-            </div>
+                        <div class="row">
+                            <div class="col-md-2"><h5>3:00</h5></div>
+                            <div class="col-md-10">
+                                <blockquote>
+                                <h5>SLYR - A bridge between ESRI and QGIS</h5>
+                                <p class="lead speaker">Brett Edmond Carlock</p>
+                                <p class="lead">In this session, I would like to cover an introduction to SLYR, North Road, Nyall Dawson, and background on the tool. I would also like to provide examples of conversions from proprietary ESRI projects and styles to QGIS projects and styles.
+                                    In addition, I would like to talk about how this tool can benefit those in mixed GIS environments, those who wish to transition to FOSS, or those consuming many government-provided data often found in these formats.
+                                    Other tips, tricks, and future developments will likely be covered as well. I will be working with Nyall Dawson on the content and scope, so this is my best projection as of now. I will provide updates if it changes.</p>
+                                </blockquote>
+                            </div>
+                        </div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>6:00</h5></div>
-                <div class='col-md-10'>
-                    <h5>QGIS and democracy: Redistricting and reapportionment with QGIS</h5>
-                    <p>John Holden, <em>Statto Consulting</em></p>
-                    <p>Until earlier this year, there hasn't been a robust free and open source option for doing redistricting on the desktop. With redistricting such an
-                        important election-related undertaking (especially with the significant upcoming post-census redraw of districts in the US in 2021), the new
-                        redistricting package for QGIS fills a significant void. Taking advantage of the capacities of QGIS 3, the new plugin offers a collection of features
-                        that simplify what would otherwise be burdensome parts of the process. The talk will not only present the software itself, but examples ways that
-                        the software can be (and has been!) used in multiple countries. This proposal, if accepted, will feature talks by John Holden, the plugin developer
-                        and political consultant who works internationally, and Blake Esselstyn, a geographer and redistricting blogger active in drawing maps for North
-                        Carolina and other states. While a two-person 20-minute session would be our preference, the proposal can also easily be spun down to one speaker
-                        or spun up into a two-hour workshop which would be a start-to-finish training on how to redistrict in QGIS.</p>
-                </div>
-            </div>
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
 
-        </div>
-        <div class="tab-pane fade" id="july24" role="tabpanel" aria-labelledby="july24-tab">
-            <h3 class="pt-3">Friday July 24, 2020</h3>
-            <p><small><em>Time Zone: EDT/Eastern Time (US & Canada)</em></small></p>
+                        <div class='row'>
+                            <div class='col-md-2'><h5>3:30</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>QGIS 101: Examples Galore</h5>
+                                <p class="lead speaker">Gretchen Peterson, <em>PetersonGIS</em></p>
+                                <p class="lead">We'll go through the steps to create several example maps from my upcoming book. From arrow symbols for streaklets to river line tapering and from blending modes to 3D visualization, this isn't a comprehensive how-to but a ""how I made these."" There will also be some cartographic principles thrown in as a matter of course!</p>
+                                </blockquote>
+                            </div>
+                        </div>
 
-            <h4 class="pt-3">Workshop</h4>
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
 
-            <div class="row">
-                <div class="col-md-2"><h5>10:00-1:00</h5></div>
-                <div class="col-md-10">
-                    <h5>Visualizing 2D Geology with QGIS <a href="https://docs.google.com/forms/d/1gFJ8s7u56OAEBIBBnrdQ1vWdYdYVM_PtCny4mY64Xog" target="_blank">(Registration Required)</a></h5>
-                    <p>Diane Fritz</p>
-                    <p>Have you ever been curious about how the rock formations you see when you’re hiking through a varying landscape look underground? This workshop
-                        will give you an introduction to satisfying that curiosity with QGIS! We’ll discuss some basic geologic principles, play with a symbol library
-                        made specifically for geologic maps and learn how to make estimated geologic cross sections with the qProf plugin. At the end, we’ll touch on
-                        finishing off our cross section in the vector graphics software Inkscape.</p>
-                    <p>We’ll step through a sample location together with provided data, but I’ll give you some resources to find your own data to build a geologic
-                        representations of your area of interest.</p>
-                </div>
-            </div>
+                        <div class='row'>
+                            <div class='col-md-2'><h5>4:00</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>Transitional Design and Lessons Learned</h5>
+                                <p class="lead speaker">Mickey Dietrich, <em>NYS Tug Hill Commission</em></p>
+                                <p class="lead">The NYS Tug Hill Commission provides technical assistance to communities within the Tug Hill Region.  We started the transition to QGIS a few years
+                                    ago as our primary desktop GIS platform from other mapping products.  Through that transition we looked at other applications that would work well
+                                    with QGIS and meet the needs of our organization.  We ended up hosting a centralized PostGIS database on Amazon Web Services, and having GIS Cloud
+                                    be our online map viewing and mobile data collecting platform.  During this presentation you will be taken through our design thought process and
+                                    the lessons we learned. This presentation could help you in your transition to QGIS and what things you may need to think about for your
+                                    organization.  It will also provide you with the information that took us several years to obtain, but you can get it in this one presentation.</p>
+                                </blockquote>
+                            </div>
+                        </div>
 
-            <h4 class="pt-3">Presentations</h4>
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>1:00</h5></div>
-                <div class='col-md-10'>
-                    <h5>Closed campus, open source: Teaching GIS during the Covid-19 crisis</h5>
-                    <p>David Abernathy, <em>Warren Wilson College</em></p>
-                    <p>As college campuses across the US closed their doors in response to the Covid-19 crisis, students and instructors were told to shift immediately to online
-                        learning. This abrupt transition created a multitude of pedagogical challenges for classroom and laboratory learning for campuses of all types. For a small
-                        liberal arts college with an emphasis on hands-on experiential learning, the challenges were especially apparent.</p>
-                    <p>This presentation will focus on the transition from lab-based instruction to remote online learning in an introductory course on GIS. From the technical issues
-                        of getting up and running remotely with QGIS to the pedagogical issues of asynchronous versus synchronous learning, the challenges and successes of the course
-                        will be addressed. In addition, plans for a “HyFlex” GIS course in the coming academic year as the pandemic continues to shape the way colleges do business
-                        will be discussed. Input from those with experience teaching GIS primarily online is most welcome!</p>
-                </div>
-            </div>
+                        <div class='row'>
+                            <div class='col-md-2'><h5>4:30</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>Using QGIS at a 911</h5>
+                                <p class="lead speaker">Randal Hale, <em>North River Geographic Systems, Inc </em></p>
+                                <p class="lead">In 2018 Henry County TN decided to move away from their Proprietary GIS solution and move to QGIS and PostGIS.  We built a database and used QGIS
+                                    to help maintain address records which were then exported to the State of TN and to the county's 911 system. </p>
+                                </blockquote>
+                            </div>
+                        </div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>1:30</h5></div>
-                <div class='col-md-10'>
-                    <h5>Bird's of a Feather Session: Best practices for teaching QGIS remotely</h5>
-                    <p>Ujaval Gandhi, <em>Spatial Thoughts</em></p>
-                    <p>As our work lives have moved online, so have learning and teaching. This session is for educators and trainers who teach QGIS and are interested in
-                        connecting with others to share and learn best practices and tips for effectively conduct online training.</p>
-                </div>
-            </div>
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>2:30</h5></div>
-                <div class='col-md-10'>
-                    <h5>Break</h5>
-                </div>
-            </div>
+                        <div class='row'>
+                            <div class='col-md-2'><h5>5:00</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>Integrating QGIS & GLOBE</h5>
+                                <p class="lead speaker">Michael Jabot, <em>SUNY Fredonia</em></p>
+                                <p class="lead">This session will share how QGIS is being used in grades 3-12 and teacher preparation to support the NASA GLOBE Program. GLOBE seeks to empower
+                                    students to collect data to learn about the world around them and QGIS empowers students to visualize these data to communicate to others. A
+                                    perfect marriage!</p>
+                                </blockquote>
+                            </div>
+                        </div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>3:30</h5></div>
-                <div class='col-md-10'>
-                    <h5>Consume your Field Collected Data Directly in QGIS Using a Plugin for Map Publishing</h5>
-                    <p>Marta Klarić Ravnić, <em>GIS Cloud Ltd.</em></p>
-                    <p>In this session, we will present a GIS Cloud Publisher for QGIS plugin which allows QGIS users to easily publish their maps online preserving
-                        symbology, share them, and even consume online data stored in GIS Cloud directly in QGIS. The plugin also allows users to update changes made
-                        to QGIS maps and sync them to the published online map. Online maps in GIS Cloud can then be easily shared privately or publicly via an URL
-                        link, and it is also possible to grant different access to the map to different team members. This keeps everyone involved in sync about the
-                        progress of the project and facilitates collaboration. We will also show how you can use a Mobile Data Collection app to collect any kind of
-                        information related to location into GIS Cloud by filling in a simple (custom) form, and consume collected data directly in QGIS, continue
-                        working on your data and perform analysis.</p>
-                </div>
-            </div>
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>4:00</h5></div>
-                <div class='col-md-10'>
-                    <h5>Old Train Maps: The Many Routes of California’s Central Pacific Railroad</h5>
-                    <p>Michele Tobias, <em>UC Davis DataLab</em></p>
-                    <p>The Central Pacific Railroad, a section of the Transcontinental Railroad, runs from Sacramento, CA, to the California-Nevada border just north of
-                        Lake Tahoe, but its current location was not the original plan.  How did the route of the Central Pacific Railroad evolve from a plausible
-                        engineering concept, to the busy, as-built track it is today?  In this talk, I will describe the how a team comprised of a geographer, hydrologist,
-                        and chemist found and georeferenced 21 historical maps of varying size, scale, and coverage from three time periods in the mid to late 1860s, then
-                        digitized the planned and built routes of the railroad to investigate just why the Central Pacific Railroad ended up where it did.  I will discuss
-                        the workflow which relied heavily on QGIS and the specific issues our team encountered working with historic railroad engineering maps.</p>
-                </div>
-            </div>
+                        <div class='row'>
+                            <div class='col-md-2'><h5>5:30</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>QGIS and the Data to Policy Project: Bringing a Geospatial Perspective to Student Research in Social Justice</h5>
+                                <p class="lead speaker">Diane Fritz, <em>University of Colorado Denver</em></p>
+                                <p class="lead">The Data to Policy (D2P) Project in Denver, Colorado was formed to empower students as researchers and advocates through the use of data to create
+                                    more equitable communities. The Auraria Library, where I work as the Geospatial Services Specialist, has been hosting D2P for the University of
+                                    Colorado Denver and Metropolitan State University Denver as spring and fall symposiums since 2017. The D2P project was inspired by the desire to
+                                    create an avenue for the voices of students frustrated with police violence, but has now extended its theme to Public Data for Public Good. As
+                                    the D2P student and faculty liaison, I am often introducing geospatial data, such as census data, to the participating students through QGIS.
+                                    Many of these students have never heard of GIS.</P>
+                                <p class="lead">Striking a balance between empowering some students with research tools and not overwhelming them with tech is a challenge. I will give some
+                                    insight on how these students approach and use QGIS, for simple to more complex problems. I’ll also propose the idea of creating a bare bones
+                                    GUI version of the QGIS software for making geospatial technologies accessible to non-STEM students in a way that leaves an easy path to grow
+                                    into the software.</p>
+                                </blockquote>
+                            </div>
+                        </div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>4:30</h5></div>
-                <div class='col-md-10'>
-                    <h5>QGIS and GIMP for Enhancing Historic Maps</h5>
-                    <p>Adam Cox, <em>Louisiana State University</em></p>
-                    <p>To use a scan of a historic map as an overlay or basemap you must first georeference it, but often that is only the first step. In many cases you’ll
-                        also need to perform some image editing—to create a proper collage from a map series, or to remove the background color. In this talk I’ll share the
-                        workflow that I use to achieve these visualizations in a flexible, reusable, and fully open source way.</p>
-                </div>
-            </div>
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>5:00</h5></div>
-                <div class='col-md-10'>
-                    <h5>Bringing Local History to Life: HistoryForge meets QGIS</h5>
-                    <p>Robert Kibbee, <em>The History Center in Tompkins County (Tompkins County, NY)</em></p>
-                    <p>This presentation will explore the potential for using QGIS to create dynamic, engaging representations of communities in their historical setting.
-                        We will introduce the QGIS world to HistoryForge, (historyforge.net) a unique source for spatially-defined historical data, and will show and talk
-                        through how we create maps in QGIS to enhance HistoryForge’s core mission, which is to encourage every community to explore its history, encourage
-                        new historical narratives and build a sense of place. HistoryForge has used QGIS-developed maps in a variety of presentations and hopes to build a
-                        substantial gallery of cartographic interpretations of its data as part of its web environment. We will present six to eight maps developed for
-                        this session by the presenters and, we hope, some guest cartographers. We’re looking forward to discussing potential and future plans with fellow
-                        QGIS users. This presentation will also demonstrate the HistoryForge application, review the data sources and the data capture and validation
-                        procedures and  discuss data download strategies for import into QGIS. HistoryForge is an open-source web environment for exploring local history.
-                        The development model uses US Census records for Ithaca, NY, from 1900-1940, but the application is being developed and documented for any
-                        community to adopt.  Volunteer transcribers capture all available attributes from the records on the manuscript census sheets, creating a rich
-                        dataset with four distinct timeposts (the date of each decennial census). The spatially-informed data provides a strong base for working in QGIS.
-                        Every personal record is geo-addressed. In addition to records for individuals, HF also creates geo-addressed records for every building in Ithaca,
-                        documented from the census (residential buildings) and from historical maps (commercial buildings) and city directories. HistoryForge allows users
-                        to filter the datasets by multiple attributes and display the filtered results on layers of contemporary historical maps (City Engineering Maps,
-                        Sanborn Fire Insurance Maps). Most map layers are geo-rectified and constructed in Tim Waters’ MapWarper, running locally, but city ward and census
-                        enumeration district map layers are constructed in QGIS. We hope that QGIS users, particularly those involved in or supporting digital humanities
-                        programs, will come away with a new appreciation for historical data sets and the potential for bringing these to life with QGIS.</p>
-                </div>
-            </div>
+                        <div class='row'>
+                            <div class='col-md-2'><h5>6:00</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>QGIS and democracy: Redistricting and reapportionment with QGIS</h5>
+                                <p class="lead speaker">John Holden, <em>Statto Consulting</em></p>
+                                <p class="lead">Until earlier this year, there hasn't been a robust free and open source option for doing redistricting on the desktop. With redistricting such an
+                                    important election-related undertaking (especially with the significant upcoming post-census redraw of districts in the US in 2021), the new
+                                    redistricting package for QGIS fills a significant void. Taking advantage of the capacities of QGIS 3, the new plugin offers a collection of features
+                                    that simplify what would otherwise be burdensome parts of the process. The talk will not only present the software itself, but examples ways that
+                                    the software can be (and has been!) used in multiple countries. This proposal, if accepted, will feature talks by John Holden, the plugin developer
+                                    and political consultant who works internationally, and Blake Esselstyn, a geographer and redistricting blogger active in drawing maps for North
+                                    Carolina and other states. While a two-person 20-minute session would be our preference, the proposal can also easily be spun down to one speaker
+                                    or spun up into a two-hour workshop which would be a start-to-finish training on how to redistrict in QGIS.</p>
+                                </blockquote>
+                            </div>
+                        </div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>5:30</h5></div>
-                <div class='col-md-10'>
-                    <h5>QGIS to the Rescue: Use of FOSS for Fair Land Assessment in a Small Vermont Town</h5>
-                    <p>Kerrie Bushway</p>
-                    <p>Vermont has over 240 towns, most with their own local government. Certain positions that are centralized in other states, such as county assessors,
-                        are still localized within the town in the form of the elected position of ""lister."" The opportunities for inconsistent methods and errors from
-                        an outdated data management system are high, and the use of spatial mapping is usually absent. This talk will be an overview of a work-in-progress
-                        in the Town of Strafford as the Board of Listers use QGIS to develop an accurate tax map and run analyses to determine whether all taxpayers are
-                        being assessed fair and equitably.</p>
-                </div>
-            </div>
+                    </div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>6:00</h5></div>
-                <div class='col-md-10'>
-                    <h5>Applying FOSS4G in Mapping Shelter Centers for People with Disabilities in Disaster Scenarios</h5>
-                    <p>Adelcides Varela</p>
-                    <p>Cabo Verde as a small African archipelago is under threat from Climate Changes, and people with disabilities are in a higher level of risk among the
-                        general population. Due to the need of assessing the existence and conditions of Shelter Centers, a survey was conducted between FECAD (Federation
-                        of People with Disabilities' Associations from Cabo Verde) and University of Cabo Verde. For that a team of different experts were put in place,
-                        and due to the freedom and low cost nature of FOSS4G, they were selected over proprietary software in both conducting the survey and mapping the
-                        results for further analysis.</p>
-                </div>
-            </div>
-        </div>
+                    <div class="tab-pane fade" id="july24" role="tabpanel" aria-labelledby="july24-tab">
+                        <h3 class="pt-3">Friday July 24, 2020</h3>
+                        <p class="lead"><small><em>Time Zone: EDT/Eastern Time (US & Canada)</em></small></p>
 
-        <div class="tab-pane fade" id="july31" role="tabpanel" aria-labelledby="july31-tab">
-            <h3 class="pt-3">Friday July 31, 2020</h3>
-            <p><small><em>Time Zone: EDT/Eastern Time (US & Canada)</em></small></p>
+                        <h4 class="pt-3">Workshop</h4>
 
-            <h4 class="pt-3">Workshop</h4>
+                        <div class="row">
+                            <div class="col-md-2"><h5>10:00-1:00</h5></div>
+                            <div class="col-md-10">
+                                <blockquote>
+                                <h5>Visualizing 2D Geology with QGIS <a href="https://docs.google.com/forms/d/1gFJ8s7u56OAEBIBBnrdQ1vWdYdYVM_PtCny4mY64Xog" target="_blank">(Registration Required)</a></h5>
+                                <p class="lead speaker">Diane Fritz</p>
+                                <p class="lead">Have you ever been curious about how the rock formations you see when you’re hiking through a varying landscape look underground? This workshop
+                                    will give you an introduction to satisfying that curiosity with QGIS! We’ll discuss some basic geologic principles, play with a symbol library
+                                    made specifically for geologic maps and learn how to make estimated geologic cross sections with the qProf plugin. At the end, we’ll touch on
+                                    finishing off our cross section in the vector graphics software Inkscape.</p>
+                                <p class="lead">We’ll step through a sample location together with provided data, but I’ll give you some resources to find your own data to build a geologic
+                                    representations of your area of interest.</p>
+                                </blockquote>
+                            </div>
+                        </div>
 
-            <div class="row">
-                <div class="col-md-2"><h5>10:00-12:00</h5></div>
-                <div class="col-md-10">
-                    <h5>Collecting data using Input and QGIS <a href="https://docs.google.com/forms/d/1gFJ8s7u56OAEBIBBnrdQ1vWdYdYVM_PtCny4mY64Xog" target="_blank">(Registration Required)</a></h5>
-                    <p>Lutra Consulting</p>
-                    <p>Using QGIS and Input, users will set up and configure their project to collect data in the field. Users will need a PC/laptop with QGIS (3.14)
-                        and a mobile/tablet device.</p>
-                    <p>The following topics will be covered during the workshop:</p>
-                    <ul>
-                        <li>Preparing QGIS project for survey:
-                            <ul><li>Setting up background layers for online/offline (XYZ tile, vector tiles, etc)</li>
-                            <li>Configuring forms</li></ul>
-                        </li>
-                        <li>Sharing project and inviting collaborators to the survey project</li>
-                        <li>Using Input</li>
-                        <li>Syncing data, track changes, history logs, etc.</li>
-                    </ul>
-                </div>
-            </div>
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
 
-            <h4 class="pt-3">Presentations</h4>
+                        <h4 class="pt-3">Presentations</h4>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>12:00</h5></div>
-                <div class='col-md-10'>
-                    <h5>A Tour of Processing Toolbox Algorithms</h5>
-                    <p>Ujaval Gandhi, <em>Spatial Thoughts</em></p>
-                    <p>Processing Toolbox in QGIS has grown to have hundreds of tools that range from geoprocessing to network analysis. Did you know that there is a tool to create a vector layer from an excel file, change the structure of your attribute table, or even color your map? This talk will be a demo of 20 lesser known processing algorithms that will change the way you use QGIS.</p>
-                </div>
-            </div>
+                        <div class='row'>
+                            <div class='col-md-2'><h5>1:00</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>Closed campus, open source: Teaching GIS during the Covid-19 crisis</h5>
+                                <p class="lead speaker">David Abernathy, <em>Warren Wilson College</em></p>
+                                <p class="lead">As college campuses across the US closed their doors in response to the Covid-19 crisis, students and instructors were told to shift immediately to online
+                                    learning. This abrupt transition created a multitude of pedagogical challenges for classroom and laboratory learning for campuses of all types. For a small
+                                    liberal arts college with an emphasis on hands-on experiential learning, the challenges were especially apparent.</p>
+                                <p class="lead">This presentation will focus on the transition from lab-based instruction to remote online learning in an introductory course on GIS. From the technical issues
+                                    of getting up and running remotely with QGIS to the pedagogical issues of asynchronous versus synchronous learning, the challenges and successes of the course
+                                    will be addressed. In addition, plans for a “HyFlex” GIS course in the coming academic year as the pandemic continues to shape the way colleges do business
+                                    will be discussed. Input from those with experience teaching GIS primarily online is most welcome!</p>
+                                </blockquote>
+                            </div>
+                        </div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>12:30</h5></div>
-                <div class='col-md-10'>
-                    <h5>GUI Plugin for Neural Network based LULC Classification</h5>
-                    <p>Atishay Jain, <em>North Eastern Space Application Center - Govt of India</em></p>
-                    <p></p>
-                </div>
-            </div>
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>1:00</h5></div>
-                <div class='col-md-10'>
-                    <h5>Advanced QGIS Expressions</h5>
-                    <p>Ujaval Gandhi, <em>Spatial Thoughts</em></p>
-                    <p>The QGIS Expression Engine is very powerful that allows you to apply your custom logic to geometries, attributes, labels and much more. This talk
-                        will cover advanced expression techniques that allow you to do complex geoprocessing and automate manual data entry tasks without custom coding
-                        or plugins. The talk will show how you can setup your project to automatically fill attributes based on relationship with other layers, do fuzzy
-                        table joins, calculate shared border lengths between polygons and automate data QA.</p>
+                        <div class='row'>
+                            <div class='col-md-2'><h5>1:30</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>Bird's of a Feather Session: Best practices for teaching QGIS remotely</h5>
+                                <p class="lead speaker">Ujaval Gandhi, <em>Spatial Thoughts</em></p>
+                                <p class="lead">As our work lives have moved online, so have learning and teaching. This session is for educators and trainers who teach QGIS and are interested in
+                                    connecting with others to share and learn best practices and tips for effectively conduct online training.</p>
+                                </blockquote>
+                            </div>
+                        </div>
 
-                    <p>https://spatialthoughts.com/2020/04/08/calculating-shared-border-lengths/ <br>
-                    https://spatialthoughts.com/2019/09/26/fuzzy-table-joins-in-qgis/ <br>
-                    https://spatialthoughts.com/2019/04/19/advanced-aggregate-expressions/ <br>
-                    https://spatialthoughts.com/2019/04/12/summary-aggregation-qgis/</p>
-                </div>
-            </div>
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>1:30</h5></div>
-                <div class='col-md-10'>
-                    <h5>QGIS in Flood Mapping. </h5>
-                    <p>A Salim Khan, <em>Pondicherry University</em></p>
-                    <p>Latest developments in QGIS versions coupled with available hydrological data and high resolution DEM provide an effective platform for flood
-                        mapping. QGIS FLO-2D, QSWAT, FloodRisk, River-GIS etc. are being extensively used for this purpose. With successful accomplishments of flood
-                        mapping like flood inundation map, flood risk map, flood zonation map and flood prediction map in developing countries like India, QGIS has
-                        been able to remove the gap of financial constraints for researchers. But there is still a long way to go. QGIS Plugins to enable hydrological
-                        and hydraulic assessment are still few and far between. This hurdle needs to be removed for better accuracy in Flood mapping using QGIS. </p>
-                </div>
-            </div>
+                        <div class='row'>
+                            <div class='col-md-2'><h5>2:30</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>Break</h5>
+                                </blockquote>
+                            </div>
+                        </div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>2:00</h5></div>
-                <div class='col-md-10'>
-                    <h5>Because data is outside - QField, the future of QGIS on mobile devices</h5>
-                    <p>Marco Bernasocchi, <em>opengis.ch</em></p>
-                    <p>Data collection often begins on the field. Whether in shiver or sunshine, working outdoors requires a solution that is optimized for mobile devices.
-                        QField [1] is the perfect companion of QGIS. The off-the-shelf application allows intuitive viewing and editing of data. With a slick user interface,
-                         QField allows using QGIS projects on tablets and mobiles. QField’s map display is powered by the QGIS rendering engine, so the results are identical and
-                         come with the full range of styling possibilities available on the desktop. Editing forms on QField respect the QGIS configuration and are optimised for
-                         touch interaction. For situations where network access is unavailable, a QGIS plugin downloads all the data to the device and allows integrating the changes
-                         back when returning to the office. The soon to be released QFieldCloud will make this, along with team management even simpler.</p>
-                    <p>[1] http://www.qfield.org <br>
-                       [2] http://www.qfield.cloud</p>
-                </div>
-            </div>
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>2:30</h5></div>
-                <div class='col-md-10'>
-                    <h5>Break</h5>
-                </div>
-            </div>
+                        <div class='row'>
+                            <div class='col-md-2'><h5>3:30</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>Consume your Field Collected Data Directly in QGIS Using a Plugin for Map Publishing</h5>
+                                <p class="lead speaker">Marta Klarić Ravnić, <em>GIS Cloud Ltd.</em></p>
+                                <p class="lead">In this session, we will present a GIS Cloud Publisher for QGIS plugin which allows QGIS users to easily publish their maps online preserving
+                                    symbology, share them, and even consume online data stored in GIS Cloud directly in QGIS. The plugin also allows users to update changes made
+                                    to QGIS maps and sync them to the published online map. Online maps in GIS Cloud can then be easily shared privately or publicly via an URL
+                                    link, and it is also possible to grant different access to the map to different team members. This keeps everyone involved in sync about the
+                                    progress of the project and facilitates collaboration. We will also show how you can use a Mobile Data Collection app to collect any kind of
+                                    information related to location into GIS Cloud by filling in a simple (custom) form, and consume collected data directly in QGIS, continue
+                                    working on your data and perform analysis.</p>
+                                </blockquote>
+                            </div>
+                        </div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>3:00</h5></div>
-                <div class='col-md-10'>
-                    <h5>Yes QGIS Server rocks! ...but why?</h5>
-                    <p>Paul Blottiere, <em>QCooperative</em></p>
-                    <p>QGIS Server is a pretty young project compared to others and obviously not the most famous map server in the free world. However, it's recklessly meaningful thanks
-                        to numerous inherent qualities, especially due to its tight integration with QGIS Desktop: ease of configuration, vendor requests and parameters or even Python
-                        plugins. Moreover, the underlying implementation is more and more robust and evidenced by the OGC certification recently renewed for the LTR.</p>
-                    <p>During this presentation, we're going to explore QGIS Server from a global perspective by focusing on its main features, but also talk about its drawbacks. We'll
-                        also take a quick look on the CI infrastructure, true gate-keeper of the necessary quality for an industrial application worthy of the name. And you never know,
-                        maybe it will give you the taste to try ;).</p>
-                </div>
-            </div>
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>3:30</h5></div>
-                <div class='col-md-10'>
-                    <h5>Advancements in Geocoding: Integrating the MMQGIS plugin with New York State’s Authoritative Address Data</h5>
-                    <p>Scott Geis and Michael Minn, <em>NYS GIS Program Office and the University of Illinois</em></p>
-                    <p>Authoritative GIS data should be discoverable, understandable and easy to use by all. Furthermore, the ground floor for entry into GIS should be
-                        free and easy to access. For more than 15 years the NYS GIS Program Office (GPO) has worked to make these two objectives a reality for all New
-                        Yorkers.  However, at times, a desire to support open-source solutions can conflict with the dependence of state agencies on proprietary software.
-                        This prevented the GPO from providing a statewide, authoritative street and address point database for the open-source GIS community, until the
-                        fall of 2019 when the MMQGIS toolkit was upgraded to be able to use the ArcGIS geocoding API. This new capability, including modifications made
-                        in collaboration with GPO, made GPO's extensive address point dataset, consisting of over 6 million rooftop address points available to the
-                        open-source community through QGIS desktop software. This presentation will cover the evolution of these capabilities and the advantages these
-                        capabilities offer to New Yorkers and the open-source GIS community in general.</p>
-                </div>
-            </div>
+                        <div class='row'>
+                            <div class='col-md-2'><h5>4:00</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>Old Train Maps: The Many Routes of California’s Central Pacific Railroad</h5>
+                                <p class="lead speaker">Michele Tobias, <em>UC Davis DataLab</em></p>
+                                <p class="lead">The Central Pacific Railroad, a section of the Transcontinental Railroad, runs from Sacramento, CA, to the California-Nevada border just north of
+                                    Lake Tahoe, but its current location was not the original plan.  How did the route of the Central Pacific Railroad evolve from a plausible
+                                    engineering concept, to the busy, as-built track it is today?  In this talk, I will describe the how a team comprised of a geographer, hydrologist,
+                                    and chemist found and georeferenced 21 historical maps of varying size, scale, and coverage from three time periods in the mid to late 1860s, then
+                                    digitized the planned and built routes of the railroad to investigate just why the Central Pacific Railroad ended up where it did.  I will discuss
+                                    the workflow which relied heavily on QGIS and the specific issues our team encountered working with historic railroad engineering maps.</p>
+                                </blockquote>
+                            </div>
+                        </div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>4:00</h5></div>
-                <div class='col-md-10'>
-                    <h5>QGIS in the sky with Diamonds (ODM)</h5>
-                    <p>Jeramy Davis, <em>Optic Unity</em></p>
-                    <p>The presentation will cover GIS in the construction industry, and the many applications of UAVs. Additionally, I will also cover how
-                        QGIS+ODM+UAV+Photogrammetry can be used to create useful data throughout multiple industries.</p>
-                </div>
-            </div>
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>4:30</h5></div>
-                <div class='col-md-10'>
-                    <h5>QGIS and PostgreSQL/PostGIS as an enterprise solution: 5 features everyone should use</h5>
-                    <p>Clifford Patterson, <em>PSD - Research, Consulting, Software</em></p>
-                    <p>QGIS, a feature-rich desktop GIS, and PostgreSQL/PostGIS, a robust spatially-enabled RDBMS, are the fundamental components of an open source
-                        enterprise GIS. Combined, these two solutions offer countless functions and capabilities. This presentation will highlight 5 essential features
-                        that everyone should use in an enterprise environment, namely (1) user management, (2) trigger functions, (3) default styling, (4) form data
-                        input, and (5) saving maps in the database.</p>
-                </div>
-            </div>
+                        <div class='row'>
+                            <div class='col-md-2'><h5>4:30</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>QGIS and GIMP for Enhancing Historic Maps</h5>
+                                <p class="lead speaker">Adam Cox, <em>Louisiana State University</em></p>
+                                <p class="lead">To use a scan of a historic map as an overlay or basemap you must first georeference it, but often that is only the first step. In many cases you’ll
+                                    also need to perform some image editing—to create a proper collage from a map series, or to remove the background color. In this talk I’ll share the
+                                    workflow that I use to achieve these visualizations in a flexible, reusable, and fully open source way.</p>
+                                </blockquote>
+                            </div>
+                        </div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>5:00</h5></div>
-                <div class='col-md-10'>
-                    <h5>Dynamic GIS Layers with QGIS and Spatial Databases</h5>
-                    <p>Karsten Vennemann, <em>Terra GIS LTD</em></p>
-                    <p></p>
-                </div>
-            </div>
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>5:30</h5></div>
-                <div class='col-md-10'>
-                    <h5>The Best New Features of QGIS 3.x</h5>
-                    <p>Kurt Menke, <em>Bird's Eye View</em></p>
-                    <p>This presentation will cover the latest new features added over the last year up to and including QGIS 3.14. Use cases and examples
-                        will be shown.</p>
-                </div>
-            </div>
+                        <div class='row'>
+                            <div class='col-md-2'><h5>5:00</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>Bringing Local History to Life: HistoryForge meets QGIS</h5>
+                                <p class="lead speaker">Robert Kibbee, <em>The History Center in Tompkins County (Tompkins County, NY)</em></p>
+                                <p class="lead">This presentation will explore the potential for using QGIS to create dynamic, engaging representations of communities in their historical setting.
+                                    We will introduce the QGIS world to HistoryForge, (historyforge.net) a unique source for spatially-defined historical data, and will show and talk
+                                    through how we create maps in QGIS to enhance HistoryForge’s core mission, which is to encourage every community to explore its history, encourage
+                                    new historical narratives and build a sense of place. HistoryForge has used QGIS-developed maps in a variety of presentations and hopes to build a
+                                    substantial gallery of cartographic interpretations of its data as part of its web environment. We will present six to eight maps developed for
+                                    this session by the presenters and, we hope, some guest cartographers. We’re looking forward to discussing potential and future plans with fellow
+                                    QGIS users. This presentation will also demonstrate the HistoryForge application, review the data sources and the data capture and validation
+                                    procedures and  discuss data download strategies for import into QGIS. HistoryForge is an open-source web environment for exploring local history.
+                                    The development model uses US Census records for Ithaca, NY, from 1900-1940, but the application is being developed and documented for any
+                                    community to adopt.  Volunteer transcribers capture all available attributes from the records on the manuscript census sheets, creating a rich
+                                    dataset with four distinct timeposts (the date of each decennial census). The spatially-informed data provides a strong base for working in QGIS.
+                                    Every personal record is geo-addressed. In addition to records for individuals, HF also creates geo-addressed records for every building in Ithaca,
+                                    documented from the census (residential buildings) and from historical maps (commercial buildings) and city directories. HistoryForge allows users
+                                    to filter the datasets by multiple attributes and display the filtered results on layers of contemporary historical maps (City Engineering Maps,
+                                    Sanborn Fire Insurance Maps). Most map layers are geo-rectified and constructed in Tim Waters’ MapWarper, running locally, but city ward and census
+                                    enumeration district map layers are constructed in QGIS. We hope that QGIS users, particularly those involved in or supporting digital humanities
+                                    programs, will come away with a new appreciation for historical data sets and the potential for bringing these to life with QGIS.</p>
+                                </blockquote>
+                            </div>
+                        </div>
 
-            <div class='row'>
-                <div class='col-md-2'><h5>6:00</h5></div>
-                <div class='col-md-10'>
-                    <h5>From the Field to the Web</h5>
-                    <p>Bernie Drahola, <em>DRAHOLA Technologies, Inc.</em></p>
-                    <p>Real live example creating and working with public works inventory from collecting data with QField, working with QGIS and deploying to the web
-                        using SLD styles in an Openlayers environment.</p>
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
+
+                        <div class='row'>
+                            <div class='col-md-2'><h5>5:30</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>QGIS to the Rescue: Use of FOSS for Fair Land Assessment in a Small Vermont Town</h5>
+                                <p class="lead speaker">Kerrie Bushway</p>
+                                <p class="lead">Vermont has over 240 towns, most with their own local government. Certain positions that are centralized in other states, such as county assessors,
+                                    are still localized within the town in the form of the elected position of ""lister."" The opportunities for inconsistent methods and errors from
+                                    an outdated data management system are high, and the use of spatial mapping is usually absent. This talk will be an overview of a work-in-progress
+                                    in the Town of Strafford as the Board of Listers use QGIS to develop an accurate tax map and run analyses to determine whether all taxpayers are
+                                    being assessed fair and equitably.</p>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
+
+                        <div class='row'>
+                            <div class='col-md-2'><h5>6:00</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>Applying FOSS4G in Mapping Shelter Centers for People with Disabilities in Disaster Scenarios</h5>
+                                <p class="lead speaker">Adelcides Varela</p>
+                                <p class="lead">Cabo Verde as a small African archipelago is under threat from Climate Changes, and people with disabilities are in a higher level of risk among the
+                                    general population. Due to the need of assessing the existence and conditions of Shelter Centers, a survey was conducted between FECAD (Federation
+                                    of People with Disabilities' Associations from Cabo Verde) and University of Cabo Verde. For that a team of different experts were put in place,
+                                    and due to the freedom and low cost nature of FOSS4G, they were selected over proprietary software in both conducting the survey and mapping the
+                                    results for further analysis.</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="july31" role="tabpanel" aria-labelledby="july31-tab">
+                        <h3 class="pt-3">Friday July 31, 2020</h3>
+                        <p class="lead"><small><em>Time Zone: EDT/Eastern Time (US & Canada)</em></small></p>
+
+                        <h4 class="pt-3">Workshop</h4>
+
+                        <div class="row">
+                            <div class="col-md-2"><h5>10:00-12:00</h5></div>
+                            <div class="col-md-10">
+                                <blockquote>
+                                <h5>Collecting data using Input and QGIS <a href="https://docs.google.com/forms/d/1gFJ8s7u56OAEBIBBnrdQ1vWdYdYVM_PtCny4mY64Xog" target="_blank">(Registration Required)</a></h5>
+                                <p class="lead speaker">Lutra Consulting</p>
+                                <p class="lead">Using QGIS and Input, users will set up and configure their project to collect data in the field. Users will need a PC/laptop with QGIS (3.14)
+                                    and a mobile/tablet device.</p>
+                                <p class="lead">The following topics will be covered during the workshop:</p>
+                                <ul>
+                                    <li>Preparing QGIS project for survey:
+                                        <ul><li>Setting up background layers for online/offline (XYZ tile, vector tiles, etc)</li>
+                                        <li>Configuring forms</li></ul>
+                                    </li>
+                                    <li>Sharing project and inviting collaborators to the survey project</li>
+                                    <li>Using Input</li>
+                                    <li>Syncing data, track changes, history logs, etc.</li>
+                                </ul>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
+
+                        <h4 class="pt-3">Presentations</h4>
+
+                        <div class='row'>
+                            <div class='col-md-2'><h5>12:00</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>A Tour of Processing Toolbox Algorithms</h5>
+                                <p class="lead speaker">Ujaval Gandhi, <em>Spatial Thoughts</em></p>
+                                <p class="lead">Processing Toolbox in QGIS has grown to have hundreds of tools that range from geoprocessing to network analysis. Did you know that there is a tool to create a vector layer from an excel file, change the structure of your attribute table, or even color your map? This talk will be a demo of 20 lesser known processing algorithms that will change the way you use QGIS.</p>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
+
+                        <div class='row'>
+                            <div class='col-md-2'><h5>12:30</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>GUI Plugin for Neural Network based LULC Classification</h5>
+                                <p class="lead speaker">Atishay Jain, <em>North Eastern Space Application Center - Govt of India</em></p>
+                                <p class="lead"></p>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
+
+                        <div class='row'>
+                            <div class='col-md-2'><h5>1:00</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>Advanced QGIS Expressions</h5>
+                                <p class="lead speaker">Ujaval Gandhi, <em>Spatial Thoughts</em></p>
+                                <p class="lead">The QGIS Expression Engine is very powerful that allows you to apply your custom logic to geometries, attributes, labels and much more. This talk
+                                    will cover advanced expression techniques that allow you to do complex geoprocessing and automate manual data entry tasks without custom coding
+                                    or plugins. The talk will show how you can setup your project to automatically fill attributes based on relationship with other layers, do fuzzy
+                                    table joins, calculate shared border lengths between polygons and automate data QA.</p>
+
+                                <p class="lead">https://spatialthoughts.com/2020/04/08/calculating-shared-border-lengths/ <br>
+                                https://spatialthoughts.com/2019/09/26/fuzzy-table-joins-in-qgis/ <br>
+                                https://spatialthoughts.com/2019/04/19/advanced-aggregate-expressions/ <br>
+                                https://spatialthoughts.com/2019/04/12/summary-aggregation-qgis/</p>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
+
+                        <div class='row'>
+                            <div class='col-md-2'><h5>1:30</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>QGIS in Flood Mapping. </h5>
+                                <p class="lead speaker">A Salim Khan, <em>Pondicherry University</em></p>
+                                <p class="lead">Latest developments in QGIS versions coupled with available hydrological data and high resolution DEM provide an effective platform for flood
+                                    mapping. QGIS FLO-2D, QSWAT, FloodRisk, River-GIS etc. are being extensively used for this purpose. With successful accomplishments of flood
+                                    mapping like flood inundation map, flood risk map, flood zonation map and flood prediction map in developing countries like India, QGIS has
+                                    been able to remove the gap of financial constraints for researchers. But there is still a long way to go. QGIS Plugins to enable hydrological
+                                    and hydraulic assessment are still few and far between. This hurdle needs to be removed for better accuracy in Flood mapping using QGIS. </p>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
+
+                        <div class='row'>
+                            <div class='col-md-2'><h5>2:00</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>Because data is outside - QField, the future of QGIS on mobile devices</h5>
+                                <p class="lead speaker">Marco Bernasocchi, <em>opengis.ch</em></p>
+                                <p class="lead">Data collection often begins on the field. Whether in shiver or sunshine, working outdoors requires a solution that is optimized for mobile devices.
+                                    QField [1] is the perfect companion of QGIS. The off-the-shelf application allows intuitive viewing and editing of data. With a slick user interface,
+                                    QField allows using QGIS projects on tablets and mobiles. QField’s map display is powered by the QGIS rendering engine, so the results are identical and
+                                    come with the full range of styling possibilities available on the desktop. Editing forms on QField respect the QGIS configuration and are optimised for
+                                    touch interaction. For situations where network access is unavailable, a QGIS plugin downloads all the data to the device and allows integrating the changes
+                                    back when returning to the office. The soon to be released QFieldCloud will make this, along with team management even simpler.</p>
+                                <p class="lead">[1] http://www.qfield.org <br>
+                                [2] http://www.qfield.cloud</p>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
+
+                        <div class='row'>
+                            <div class='col-md-2'><h5>2:30</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>Break</h5>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class='row'>
+                            <div class='col-md-2'><h5>3:00</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>Yes QGIS Server rocks! ...but why?</h5>
+                                <p class="lead speaker">Paul Blottiere, <em>QCooperative</em></p>
+                                <p class="lead">QGIS Server is a pretty young project compared to others and obviously not the most famous map server in the free world. However, it's recklessly meaningful thanks
+                                    to numerous inherent qualities, especially due to its tight integration with QGIS Desktop: ease of configuration, vendor requests and parameters or even Python
+                                    plugins. Moreover, the underlying implementation is more and more robust and evidenced by the OGC certification recently renewed for the LTR.</p>
+                                <p class="lead">During this presentation, we're going to explore QGIS Server from a global perspective by focusing on its main features, but also talk about its drawbacks. We'll
+                                    also take a quick look on the CI infrastructure, true gate-keeper of the necessary quality for an industrial application worthy of the name. And you never know,
+                                    maybe it will give you the taste to try ;).</p>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
+
+                        <div class='row'>
+                            <div class='col-md-2'><h5>3:30</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>Advancements in Geocoding: Integrating the MMQGIS plugin with New York State’s Authoritative Address Data</h5>
+                                <p class="lead speaker">Scott Geis and Michael Minn, <em>NYS GIS Program Office and the University of Illinois</em></p>
+                                <p class="lead">Authoritative GIS data should be discoverable, understandable and easy to use by all. Furthermore, the ground floor for entry into GIS should be
+                                    free and easy to access. For more than 15 years the NYS GIS Program Office (GPO) has worked to make these two objectives a reality for all New
+                                    Yorkers.  However, at times, a desire to support open-source solutions can conflict with the dependence of state agencies on proprietary software.
+                                    This prevented the GPO from providing a statewide, authoritative street and address point database for the open-source GIS community, until the
+                                    fall of 2019 when the MMQGIS toolkit was upgraded to be able to use the ArcGIS geocoding API. This new capability, including modifications made
+                                    in collaboration with GPO, made GPO's extensive address point dataset, consisting of over 6 million rooftop address points available to the
+                                    open-source community through QGIS desktop software. This presentation will cover the evolution of these capabilities and the advantages these
+                                    capabilities offer to New Yorkers and the open-source GIS community in general.</p>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
+
+                        <div class='row'>
+                            <div class='col-md-2'><h5>4:00</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>QGIS in the sky with Diamonds (ODM)</h5>
+                                <p class="lead speaker">Jeramy Davis, <em>Optic Unity</em></p>
+                                <p class="lead">The presentation will cover GIS in the construction industry, and the many applications of UAVs. Additionally, I will also cover how
+                                    QGIS+ODM+UAV+Photogrammetry can be used to create useful data throughout multiple industries.</p>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
+
+                        <div class='row'>
+                            <div class='col-md-2'><h5>4:30</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>QGIS and PostgreSQL/PostGIS as an enterprise solution: 5 features everyone should use</h5>
+                                <p class="lead speaker">Clifford Patterson, <em>PSD - Research, Consulting, Software</em></p>
+                                <p class="lead">QGIS, a feature-rich desktop GIS, and PostgreSQL/PostGIS, a robust spatially-enabled RDBMS, are the fundamental components of an open source
+                                    enterprise GIS. Combined, these two solutions offer countless functions and capabilities. This presentation will highlight 5 essential features
+                                    that everyone should use in an enterprise environment, namely (1) user management, (2) trigger functions, (3) default styling, (4) form data
+                                    input, and (5) saving maps in the database.</p>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
+
+                        <div class='row'>
+                            <div class='col-md-2'><h5>5:00</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>Dynamic GIS Layers with QGIS and Spatial Databases</h5>
+                                <p class="lead speaker">Karsten Vennemann, <em>Terra GIS LTD</em></p>
+                                <p class="lead"></p>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
+
+                        <div class='row'>
+                            <div class='col-md-2'><h5>5:30</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>The Best New Features of QGIS 3.x</h5>
+                                <p class="lead speaker">Kurt Menke, <em>Bird's Eye View</em></p>
+                                <p class="lead">This presentation will cover the latest new features added over the last year up to and including QGIS 3.14. Use cases and examples
+                                    will be shown.</p>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+                        <hr class="featurette-divider">
+                        <div class="clearfix"></div>
+
+                        <div class='row'>
+                            <div class='col-md-2'><h5>6:00</h5></div>
+                            <div class='col-md-10'>
+                                <blockquote>
+                                <h5>From the Field to the Web</h5>
+                                <p class="lead speaker">Bernie Drahola, <em>DRAHOLA Technologies, Inc.</em></p>
+                                <p class="lead">Real live example creating and working with public works inventory from collecting data with QField, working with QGIS and deploying to the web
+                                    using SLD styles in an Openlayers environment.</p>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
 
         </div>
       </div>
 
-    </div>
+      <div class="clearfix"></div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- PAGE FOOTER -->
+    <footer class="footer">
+        <div class="container">
+          <ul id="social">
+            <li id="twitter"><a href="http://twitter.com/qgis_us" class="external"><div></div></a></li>
+            <li id="facebook"><a href="https://www.facebook.com/pages/QGIS-Quantum-GIS-/298112000235096" class="external"><div></div></a></li>
+            <li id="gplus"><a href="http://plus.google.com/communities/114776597176808981624" class="external"><div></div></a></li>
+            <li id="github"><a href="http://github.com/qgis/" class="external"><div></div></a></li>
+            <li id="contact"><a href="http://lists.osgeo.org/cgi-bin/mailman/listinfo/qgis-us-user"><div></div></a></li>
+          </ul>
+        </div>
+        <p class="footer credit">If not stated otherwise, all content is licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 licence (CC BY-SA)</a></p>
+        <p class="footer credit">Select graphics from<a href="http://thenounproject.com"> The Noun Project</a></p>
+      </footer>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script>
+        $(function(){
+            // bind change event to select
+            $('#other_groups').bind('change', function () {
+                var url = $(this).val(); // get selected value
+                if (url) { // require a URL
+                    window.location = url; // redirect
+                }
+                return false;
+            });
+        });
+        </script>
   </body>
 </html>
