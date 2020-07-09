@@ -4,6 +4,12 @@ body {
   font-size: 14px;
 }
 
+h5 {
+  font-size: 1.6em;
+  font-weight: 900;
+  color: #8a8a8a;
+}
+
 a {
   font-weight: bold;
   color: #0084c8;
@@ -11,10 +17,6 @@ a {
 a:hover {
   color: #000;
   text-decoration: none;
-}
-
-.container {
-  margin-left: 10px;
 }
 
 hr {
@@ -97,6 +99,17 @@ select#other_groups {
   line-height: 1.5em;
 }
 
+.page-sub-title {
+  color: #0084c8;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  font-size: 2.4em;
+  letter-spacing: 1px;
+  padding-left: 25px;
+  text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.82);
+  line-height: 1.5em;
+}
+
 ul.page-nav {
   margin-top: 15px;
   margin-left: 30px;
@@ -108,6 +121,10 @@ ul.page-nav {
 ul.page-nav li {
   display: inline-block;
   margin-right: 25px;
+}
+
+.container-wrapper {
+  margin-left: 10px;
 }
 
 .byline {
@@ -133,6 +150,19 @@ ul.page-nav li {
   line-height: 1.8em;
 }
 
+.btn-program {
+  border-radius: 0;
+}
+
+.speaker {
+  font-weight: 600;
+}
+
+.speaker > em {
+  color: #717171;
+  font-weight: 100;
+}
+
 .schedule {
   margin-left: 30px;
 }
@@ -144,6 +174,11 @@ ul.page-nav li {
 .featurette-heading {
   line-height: 1.5em;
   font-size: 3em;
+}
+
+.tab-content-wrapper {
+  background-color: rgb(255, 255, 255, 0.5);
+  padding-right: 2.5em;
 }
 
 footer {
