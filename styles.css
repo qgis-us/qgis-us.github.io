@@ -176,6 +176,10 @@ ul.page-nav li {
   font-size: 3em;
 }
 
+.nav-tabs.three-tabs .nav-item {
+  width:33%;
+}
+
 .tab-content-wrapper {
   background-color: rgb(255, 255, 255, 0.5);
   padding-right: 2.5em;
